@@ -1,0 +1,27 @@
+{
+  "name": "algorithmsii",
+  "version": "1.0.0",
+  "description": "Intermediate algorithms in Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtanzim/algorithmsII.git"
+  },
+  "keywords": [
+    "typescript",
+    "algorithms",
+    "javascript"
+  ],
+  "author": "Tanzim Mokammel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtanzim/algorithmsII/issues"
+  },
+  "homepage": "https://github.com/mtanzim/algorithmsII#readme",
+  "devDependencies": {
+    "ts-node": "^7.0.1"
+  }
+}
