@@ -1,15 +1,15 @@
 
-interface Iterable <T> {
-  hasNext() : boolean;
-  next() : T;
-  resetPosition() : void;
+interface Iterable<T> {
+  hasNext(): boolean;
+  next(): T;
+  resetPosition(): void;
 }
 
 
-export default class Bag <T> implements Iterable <T> {
+export default class Bag<T> implements Iterable<T> {
 
   // prevent modifying bag
-  private bag: Array<T> ;
+  private bag: Array<T>;
   private position: number;
 
   constructor() {
@@ -17,7 +17,7 @@ export default class Bag <T> implements Iterable <T> {
     this.position = 0;
   }
 
-  add(item:T) {
+  add(item: T) {
     this.bag.push(item);
   }
 
@@ -31,7 +31,7 @@ export default class Bag <T> implements Iterable <T> {
 
   next(): T {
     let item = this.bag[this.position];
-    this.position ++;
+    this.position++;
     return item;
   }
 
@@ -39,22 +39,22 @@ export default class Bag <T> implements Iterable <T> {
     this.position = 0;
   }
 
-  hasNext() : boolean {
+  hasNext(): boolean {
     return (this.position !== this.bag.length);
   }
 
 }
 
-function driver () : void {
-  
+function driver(): void {
+
   let bag = new Bag();
   bag.add(2);
-  bag.add(['a',2,5]);
+  bag.add(['a', 2, 5]);
   bag.add('Hello');
-  bag.add({text:'Hi', num:45});
-  
+  bag.add({ text: 'Hi', num: 45 });
+
   console.log(bag);
-  
+
   console.log(bag.hasNext() && bag.next());
   console.log(bag.hasNext() && bag.next());
   console.log(bag.hasNext() && bag.next());
@@ -62,7 +62,7 @@ function driver () : void {
   console.log(bag.hasNext() && bag.next());
   bag.resetPosition();
   console.log(bag.hasNext() && bag.next());
-  
+
 }
 
 
