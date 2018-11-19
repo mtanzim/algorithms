@@ -47,7 +47,7 @@ export default class Bag<T> implements Iterable<T> {
 
 function driver(): void {
 
-  let bag = new Bag();
+  let bag : number = new Bag();
   bag.add(2);
   bag.add(['a', 2, 5]);
   bag.add('Hello');
