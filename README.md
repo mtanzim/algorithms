@@ -17,5 +17,5 @@ Develop and follow along the course on Algorithms from Princeton University offe
 
 Resources
 
-[Typescript](https://www.typescriptlang.org/)
-[Intro to Algorithms in JS](https://github.com/mtanzim/jsAlgorithms)
+- [Typescript](https://www.typescriptlang.org/)
+- [Intro to Algorithms in JS](https://github.com/mtanzim/jsAlgorithms)
