@@ -1,9 +1,4 @@
-
-interface Iterable <T> {
-  hasNext(): boolean;
-  next(): T;
-  resetPosition(): void;
-}
+import Iterable from './Iterable';
 
 
 export default class Bag<T> implements Iterable <T> {
@@ -69,4 +64,4 @@ function driver(): void {
 }
 
 
-driver();
+// driver();
