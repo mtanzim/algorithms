@@ -13,7 +13,7 @@ export default class Bag<T> implements Iterable <T> {
   }
 
   add(item: T) {
-    this.bag.push(item);
+    if (!this.bag.some(a=> a===item)) this.bag.push(item);
   }
 
   isEmpty(): boolean {

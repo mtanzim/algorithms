@@ -30,6 +30,12 @@ export default class Graph {
   } */
 
   repInString() : string {
+    this.adj.forEach ( (a,i) => {
+      (a.hasNext()) && console.log(`Vertex ${i}`);
+      while (a.hasNext()) {
+        console.log(`\t${a.next()}`);
+      }
+    })
     return JSON.stringify(this.adj, null, 2);
   }
 
@@ -37,11 +43,18 @@ export default class Graph {
 }
 
 function driver() {
-  let graph = new Graph(5);
+  let graph = new Graph(10);
+  graph.addEdge(1,2);
   graph.addEdge(1,2);
   graph.addEdge(1,3);
-  console.log(graph.repInString());
+  graph.addEdge(1,4);
+  graph.addEdge(2,3);
+  graph.addEdge(2,4);
+  graph.addEdge(3,4);
+  graph.addEdge(5,2);
+  // console.log(graph.repInString());
+  graph.repInString();
 
 }
 
-// driver();
+driver();
