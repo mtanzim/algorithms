@@ -6,12 +6,14 @@ export default class DepthFirstPaths {
   private edgeTo : number [];
   private s: number;
   private graph : Graph;
+  private debug: boolean;
 
-  constructor(G: Graph, s: number) {
+  constructor(G: Graph, s: number, debug:boolean = false) {
     this.graph = G;
     this.s = s;
     this.edgeTo = [];
     this.marked = [];
+    this.debug = debug;
 
     for (let i = 0; i < this.graph.getV() ; i++) {
       // make sure all positions are reset after the graph has been used
@@ -23,11 +25,20 @@ export default class DepthFirstPaths {
     this.dfs(G,s);
   }
 
+  setDebug(debug:boolean):void {
+    this.debug = debug;
+  }
+
   private dfs(G: Graph, v: number) {
-    console.log (`marked vertex ${v}`);
+
+    if (this.debug) {
+      console.log(`Marking vertex:\t\t\t${v}`);
+      console.log(`Connected nodes:\t\t${JSON.stringify(G.adj[v].getArrRep())}`);
+      console.log(`Will visit nodes:\t\t${JSON.stringify(G.adj[v].getArrRep().filter(a=> !this.marked[a]))}`);
+      console.log();
+    }
+
     this.marked[v] = true;
-    console.log(G.adj[v]);
-    // console.log(G.adj[v].next());
     while (G.adj[v].hasNext()) {
       let w = G.adj[v].next();
       if (!this.marked[w]) {

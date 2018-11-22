@@ -38,6 +38,10 @@ export default class Bag<T> implements Iterable <T> {
     return (this.position !== this.bag.length);
   }
 
+  getArrRep() {
+    return [].concat(this.bag);
+  }
+
 }
 
 function driver(): void {
