@@ -15,7 +15,7 @@ Develop and follow along the course on Algorithms from Princeton University offe
 - Host a set of written notes for future reference/study
 - Host code for future reference/study
 
-Resources
+## Resources
 
 - [Typescript](https://www.typescriptlang.org/)
 - [Intro to Algorithms in JS](https://github.com/mtanzim/jsAlgorithms)
