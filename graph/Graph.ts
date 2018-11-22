@@ -3,7 +3,7 @@ import Bag from "../helper/Bag";
 
 export default class Graph {
   
-  private adj: Bag<number> [];
+  readonly adj: Bag<number> [];
   private V: number;
 
   constructor(V: number) {
@@ -24,37 +24,24 @@ export default class Graph {
   getV():number {
     return this.V;
   }
-
-/*   getE():number {
-    return ;
-  } */
-
+  
   repInString() : string {
-    this.adj.forEach ( (a,i) => {
-      (a.hasNext()) && console.log(`Vertex ${i}`);
+
+    const printVertexInfo = (a:Iterable<number>) => {
+      let str = '';
       while (a.hasNext()) {
-        console.log(`\t${a.next()}`);
+        str += a.next() + ' ' ;
       }
-    })
+      return str;
+    }
+
+    this.adj.forEach ( (a,i) => {
+      (a.hasNext()) && console.log(`Vertex ${i}: ${printVertexInfo(a)}`)
+    });
+
+    console.log();
+
     return JSON.stringify(this.adj, null, 2);
   }
-
   
 }
-
-function driver() {
-  let graph = new Graph(10);
-  graph.addEdge(1,2);
-  graph.addEdge(1,2);
-  graph.addEdge(1,3);
-  graph.addEdge(1,4);
-  graph.addEdge(2,3);
-  graph.addEdge(2,4);
-  graph.addEdge(3,4);
-  graph.addEdge(5,2);
-  // console.log(graph.repInString());
-  graph.repInString();
-
-}
-
-driver();
