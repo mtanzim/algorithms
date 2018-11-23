@@ -49,9 +49,9 @@ export default class DepthFirstPaths {
   }
 
   repInString(): void {
-    console.log(`v\tEdge To\tMarked`);
+    console.log(`v\t\tEdge To\t\tMarked`);
     for (let i = 0; i < this.graph.getV() ; i++) {
-      console.log(`${i}\t${this.edgeTo[i]}\t${this.marked[i]}`);
+      console.log(`${i}\t\t${this.edgeTo[i]}\t\t${this.marked[i]}`);
     }
   }
 

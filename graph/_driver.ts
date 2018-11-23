@@ -18,11 +18,11 @@ function createGraph() : Graph {
 function driver() {
   let graph = createGraph();
   graph.repInString();
-  // let paths = new DFPaths(graph, 0, true);
-  // paths.setDebug(true);
-  // paths.repInString();
-
-  let bfsPaths = new BFSPaths(graph, 0, true);
+  let paths = new DFPaths(graph, 0, false);
+  paths.setDebug(true);
+  paths.repInString();
+  console.log();
+  let bfsPaths = new BFSPaths(graph, 0, false);
   bfsPaths.repInString(); 
 
 }
