@@ -1,5 +1,6 @@
 import Graph from "./Graph";
 import DFPaths from "./DepthFirstPaths";
+import BFSPaths from "./BreadthFirstPaths";
 
 function createGraph() : Graph {
   let graph = new Graph(7);
@@ -17,9 +18,12 @@ function createGraph() : Graph {
 function driver() {
   let graph = createGraph();
   graph.repInString();
-  let paths = new DFPaths(graph, 0, true);
+  // let paths = new DFPaths(graph, 0, true);
   // paths.setDebug(true);
-  paths.repInString();
+  // paths.repInString();
+
+  let bfsPaths = new BFSPaths(graph, 0, true);
+  bfsPaths.repInString(); 
 
 }
 
