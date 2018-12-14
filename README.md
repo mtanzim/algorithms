@@ -1,6 +1,6 @@
 # Algorithms II - Princeton
 
-Studies on this topic will be continued [here](https://github.com/mtanzim/networkx-test), using the Python network-x library:
+Studies on this topic will be continued [here](https://github.com/mtanzim/networkx-test), using the Python network-x library.
 
 
 # Overview
