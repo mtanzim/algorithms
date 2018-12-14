@@ -1,5 +1,8 @@
 # Algorithms II - Princeton
 
+Studies on this topic will be continued [here](https://github.com/mtanzim/networkx-test), using the Python network-x library:
+
+
 # Overview
 
 Develop and follow along the course on Algorithms from Princeton University offered on Coursera. Typescript will be used.
