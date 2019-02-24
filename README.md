@@ -2,7 +2,7 @@
 
 ## Overview
 
-Develop and follow along the courses on Algorithms from Princeton University offered on Coursera. This repository hosts come code implementing some of the concepts with Typescript. However, the repository is mainly a hub to link additional exercises done using JS, Python, and Java on the topic.
+Develop and follow along the courses on Algorithms from Princeton University offered on Coursera. This repository hosts code implementing some of the concepts with Typescript. However, the repository is mainly a hub to link additional exercises done using JS, Python, and Java on the topic.
 
 - [Algorithms I](https://www.coursera.org/learn/algorithms-part1/)
   - [Assignment 1 - Percolation with Union Find](https://gitlab.com/mtanzim/percolation-algorithms1)
