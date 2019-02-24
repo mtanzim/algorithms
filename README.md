@@ -7,6 +7,8 @@ Additional studies on the topic is continued [here](https://github.com/mtanzim/n
 Develop and follow along the courses on Algorithms from Princeton University offered on Coursera. Typescript will be used.
 
 - [Algorithms I](https://www.coursera.org/learn/algorithms-part1/)
+  - [Assignment 1 - Percolation with Union Find](https://gitlab.com/mtanzim/percolation-algorithms1)
+  - [Assignment 2 - Deques and Randomized Deques](https://gitlab.com/mtanzim/algorithms1-deque)
 - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
 - [Algorithms II Lecture Slides](https://drive.google.com/open?id=1ol2HCnpoE-WSvrpX-xCgWbPRrFWQANeB)
 
