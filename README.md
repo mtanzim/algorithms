@@ -1,16 +1,15 @@
-# Algorithms II - Princeton
-
-Additional studies on the topic is continued [here](https://github.com/mtanzim/networkx-test), using the Python network-x library.
+# Algorithms I/II - Princeton
 
 ## Overview
 
-Develop and follow along the courses on Algorithms from Princeton University offered on Coursera. Typescript will be used.
+Develop and follow along the courses on Algorithms from Princeton University offered on Coursera. This repository hosts come code implementing some of the concepts with Typescript. However, the repository is mainly a hub to link additional exercises done using JS, Python, and Java on the topic.
 
 - [Algorithms I](https://www.coursera.org/learn/algorithms-part1/)
   - [Assignment 1 - Percolation with Union Find](https://gitlab.com/mtanzim/percolation-algorithms1)
   - [Assignment 2 - Deques and Randomized Deques](https://gitlab.com/mtanzim/algorithms1-deque)
 - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
-- [Algorithms II Lecture Slides](https://drive.google.com/open?id=1ol2HCnpoE-WSvrpX-xCgWbPRrFWQANeB)
+- [Graph Algorithms in Python/Network-X](https://github.com/mtanzim/networkx-test)
+- [Intro to Algorithms in JS](https://github.com/mtanzim/jsAlgorithms)
 
 ## Purpose
 
@@ -22,4 +21,4 @@ Develop and follow along the courses on Algorithms from Princeton University off
 ## Resources
 
 - [Typescript](https://www.typescriptlang.org/)
-- [Intro to Algorithms in JS](https://github.com/mtanzim/jsAlgorithms)
+
