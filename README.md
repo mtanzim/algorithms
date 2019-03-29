@@ -8,6 +8,7 @@ Develop and follow along the courses on Algorithms from Princeton University off
   - [Assignment 1 - Percolation with Union Find](https://gitlab.com/mtanzim/percolation-algorithms1)
   - [Assignment 2 - Deques and Randomized Deques](https://gitlab.com/mtanzim/algorithms1-deque)
   - [Assignment 3 - Collinear Points with Sorts](https://gitlab.com/mtanzim/algorithms1-collinear-points)
+  - [Assignment 4 - 8Puzzle with PQ and A* Algorithm](https://gitlab.com/mtanzim/algorithms1-8puzzle.git/)
 - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
 - [Graph Algorithms in Python/Network-X](https://github.com/mtanzim/networkx-test)
 - [Intro to Algorithms in JS](https://github.com/mtanzim/jsAlgorithms)
