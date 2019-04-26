@@ -9,16 +9,18 @@ Develop and follow along the courses on Algorithms from Princeton University off
   - [Assignment 2 - Deques and Randomized Deques](https://gitlab.com/mtanzim/algorithms1-deque)
   - [Assignment 3 - Collinear Points with Sorts](https://gitlab.com/mtanzim/algorithms1-collinear-points)
   - [Assignment 4 - 8Puzzle with PQ and A* Algorithm](https://gitlab.com/mtanzim/algorithms1-8puzzle.git/)
+  - [Assignment 5 - Kd Trees](https://gitlab.com/mtanzim/algorithms1-kdtree) 
 - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
 - [Graph Algorithms in Python/Network-X](https://github.com/mtanzim/networkx-test)
 - [Intro to Algorithms in JS](https://github.com/mtanzim/jsAlgorithms)
 
 ## Purpose
 
-- Continue study the fundamentals of data structures and algorithms
+- Continued study of fundamentals of data structures and algorithms
 - Expand knowledge of Typescript/Javascript by implementing algorithms with TS
 - Host a set of written notes for future reference/study
 - Host code for future reference/study
+- Aggregate Java projects completed as part of the courses
 
 ## Resources
 
