@@ -13,6 +13,7 @@ Develop and follow along the courses on Algorithms from Princeton University off
 - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
 - [Graph Algorithms in Python/Network-X](https://github.com/mtanzim/networkx-test)
 - [Intro to Algorithms in JS](https://github.com/mtanzim/jsAlgorithms)
+- [Additional Exercises](https://github.com/mtanzim/codeWars)
 
 ## Purpose
 
